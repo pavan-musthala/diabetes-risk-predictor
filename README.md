@@ -3,7 +3,6 @@
 ## Project Overview
 An interactive web application that leverages machine learning to predict diabetes risk based on various health metrics. This project demonstrates the practical application of data science and machine learning in healthcare, providing users with real-time risk assessment and detailed insights into their health indicators.
 
-![Diabetes Prediction Dashboard](project_screenshot.png)
 
 ## 🎯 Key Features
 
@@ -85,31 +84,7 @@ An interactive web application that leverages machine learning to predict diabet
    - Implemented interactive charts
    - Ensured proper data representation
 
-## 🛠️ Installation and Setup
 
-```bash
-# Clone the repository
-git clone [your-repository-url]
-
-# Navigate to project directory
-cd diabetes-prediction
-
-# Install required packages
-pip install -r requirements.txt
-
-# Run the application
-streamlit run diabetes_app.py
-```
-
-## 📦 Dependencies
-
-```txt
-streamlit==1.39.0
-pandas==1.5.3
-numpy==1.24.3
-scikit-learn==1.2.2
-plotly==5.24.1
-```
 
 ## 🎓 Learning Outcomes
 
@@ -118,53 +93,3 @@ plotly==5.24.1
 - Created professional data visualizations
 - Applied healthcare domain knowledge
 - Practiced user-centered design principles
-
-## 🔮 Future Enhancements
-
-1. **Model Improvements**
-   - Integration of additional ML algorithms
-   - Feature importance analysis
-   - Model explainability components
-
-2. **User Experience**
-   - Additional health metrics
-   - Personalized recommendations
-   - Historical data tracking
-
-3. **Technical Features**
-   - User authentication system
-   - Data export capabilities
-   - API integration
-
-## 📝 Project Structure
-
-```
-diabetes-prediction/
-├── diabetes_app.py        # Main application file
-├── requirements.txt       # Project dependencies
-├── README.md             # Project documentation
-├── diabetes.csv          # Dataset
-└── assets/              # Project assets
-    └── project_screenshot.png
-```
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome! Feel free to check [issues page](your-repo-issues-url).
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 👨‍💻 Author
-
-Your Name
-- Portfolio: [your-portfolio-url]
-- LinkedIn: [your-linkedin-url]
-- GitHub: [your-github-url]
-
-## 🙏 Acknowledgments
-
-- Pima Indians Diabetes Database
-- Streamlit Community
-- Python Data Science Community
